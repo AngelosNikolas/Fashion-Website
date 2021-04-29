@@ -118,6 +118,6 @@ if(isset($_POST['submit'])){
 	}
 }
 echo "<script>
-window.location.href='addProduct.php';
+window.location.href='searchProduct.php';
 </script>";
 ?>
