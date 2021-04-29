@@ -50,10 +50,12 @@ if (isset($_SESSION['logged-in'])) {
                     <li class="nav-item"></li>
                     <li class="nav-item"></li>
                     <?php
+
                     if (isset($_SESSION['logged-in'])) {
-                        if($status === 1);{
+                        if($status == 1){
                             echo "<li class=\"nav - item\\\"><a class=\"nav - link\" href=\"../Editor/addProduct.php\">Admin funtions</a></li>";
                         }
+
                     }
                     ?>
 
