@@ -31,7 +31,7 @@ session_start();
         <div class="container"><a class="navbar-brand" href="index.php" style="background: url(&quot;assets/img/logoFinal.png&quot;) center / contain no-repeat;height: 53px;width: 120.8281px;"></a></div>
     </nav>
     <section class="login-dark" style="background: url(&quot;assets/img/friends.jpg&quot;) center / cover;">
-        <form method="post">
+        <form action="loginScript.php" method="post">
             <h2 class="sr-only">Login Form</h2>
             <div><img src="assets/img/logoFinal.png" style="width: 239px;height: 167.359px;"></div>
             <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email" style="color: #2b2b28;font-family: Oswald, sans-serif;"></div>
