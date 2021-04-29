@@ -118,4 +118,7 @@ if(isset($_POST['submit'])){
 	echo  "<br>" . $e->getMessage();
 	}
 }
+echo "<script>
+window.location.href='addProduct.php';
+</script>";
 ?>
