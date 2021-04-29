@@ -13,6 +13,32 @@ $statement->execute();
 
 $result = $statement->fetchAll();
 
+if (isset($_SESSION['logged-in'])) {
+    $email = $_SESSION['email'];
+    $sql = "select * from user where userName='$email'";
+    $query = mysqli_query($con, $sql);
+    $res = mysqli_num_rows($query);
+
+    if ($res > 0) {
+        while ($row = mysqli_fetch_assoc($query)) {
+            $_SESSION['status'] = $row['status'];
+            $status = $_SESSION['status'];
+        }
+        if ($status == 0) {
+            echo "<script>
+window.location.href='../Front-end/index.php';
+</script>";
+        }
+    }
+}
+    if (!isset($_SESSION["logged-in"])) {
+        echo "<script>
+window.location.href='../Front-end/index.php';
+</script>";
+
+        exit();
+    }
+
 ?>
 
 
