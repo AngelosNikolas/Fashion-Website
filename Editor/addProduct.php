@@ -75,8 +75,9 @@ window.location.href='../Front-end/index.php';
             <div class="container">
 		    <a class="navbar-brand" style="background: url(&quot;assets/img/logoFinal.png&quot;) center / contain no-repeat;height: 53px;width: 120.8281px;">
 		    </a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
-		    <span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span
-		    ></button>
+		    <span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon">
+		    </span>
+		    </button>
                 <div class="collapse navbar-collapse" id="navcol-1" style="color: var(--warning);">
                     <ul class="navbar-nav">
                         <li class="nav-item"><a class="nav-link" href="addProduct.php">Add Product</a></li>
