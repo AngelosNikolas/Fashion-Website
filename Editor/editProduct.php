@@ -14,7 +14,7 @@ if (isset($_SESSION['logged-in'])) {
             $_SESSION['status'] = $row['status'];
             $status = $_SESSION['status'];
         }
-        if($status === 0){
+        if($status == 0){
             echo "<script>
 window.location.href='../Front-end/index.php';
 </script>";
@@ -31,7 +31,6 @@ window.location.href='../Front-end/index.php';
     exit();
 }
 ?>
-
 
 <!DOCTYPE html>
 <html>
