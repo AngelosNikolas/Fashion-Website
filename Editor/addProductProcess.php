@@ -93,6 +93,6 @@ if(isset($_POST['submit'])){
 }
 echo "<script>
 alert('successfuly added product');
-window.location.href='addProduct.php';
+window.location.href='searchProduct.php';
 </script>";
 ?>
