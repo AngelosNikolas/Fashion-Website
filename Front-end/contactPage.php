@@ -34,10 +34,10 @@
             </div>
             <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link" href="checkout.php"><i class="fa fa-shopping-basket"></i></a></li>
-                <li class="nav-item"><a class="nav-link" href="profile.html"><i class="fa fa-user"></i></a></li>
+                <li class="nav-item"><a class="nav-link" href="profile.php"><i class="fa fa-user"></i></a></li>
             </ul>
             <div class="dropdown"><a class="dropdown-toggle" aria-expanded="false" data-toggle="dropdown" href="#" style="color: #434a52;">Account</a>
-                <div class="dropdown-menu"><a class="dropdown-item" data-bss-hover-animate="bounce" href="signForm.html" style="color: rgb(0,0,0);background: #e5c6db;">Sign up</a><a class="dropdown-item" data-bss-hover-animate="bounce" href="login.html" style="color: rgb(0,0,0);background: #e87fc9;">Log in</a></div>
+                <div class="dropdown-menu"><a class="dropdown-item" data-bss-hover-animate="bounce" href="signForm.php" style="color: rgb(0,0,0);background: #e5c6db;">Sign up</a><a class="dropdown-item" data-bss-hover-animate="bounce" href="login.html" style="color: rgb(0,0,0);background: #e87fc9;">Log in</a></div>
             </div>
         </div>
     </nav>
