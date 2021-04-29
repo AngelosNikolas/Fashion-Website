@@ -71,7 +71,7 @@ if(isset($_POST['submit'])){
 		 }
 		 
 	 if(move_uploaded_file($tempname, $folder1)){
-		echo "Image uploaded successfully"; 
+		echo "<script>alert('Added successfully');</script>"; 
 	 }else{
 		 echo "Fail to upload";
 	 }
