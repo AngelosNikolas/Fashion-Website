@@ -107,7 +107,6 @@ if(isset($_POST['submit'])){
 		 
 	 if(move_uploaded_file($tempname, $folder1)){
 		echo "<script>alert('Update successfully');</script>"; 
-		header("Location: localhost/index.php");
 	 }else{
 		 echo "Fail to upload";
 	 }
