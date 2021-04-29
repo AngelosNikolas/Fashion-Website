@@ -72,7 +72,7 @@ window.location.href='../Front-end/index.php';
 
 <body style="font-family: Oswald, sans-serif;background: url(&quot;assets/img/lines%20backround%202%20dark.jpg&quot;);">
 <div><nav class="navbar navbar-light navbar-expand-md navigation-clean-search" id="navclass" style="color: var(--gray-dark);background: rgba(255,255,255,0.62);">
-        <div class="container"><a class="navbar-brand" style="background: url(&quot;assets/img/logoFinal.png;) center / contain no-repeat;height: 53px;width: 120.8281px;"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container"><a class="navbar-brand" style="background: url(&quot;assets/img/logoFinal.png&quot;) center / contain no-repeat;height: 53px;width: 120.8281px;"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1" style="color: var(--warning);">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link" href="addProduct.php">Add Product</a></li>
