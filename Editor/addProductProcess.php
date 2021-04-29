@@ -71,7 +71,7 @@ if(isset($_POST['submit'])){
 		 }
 		 
 	 if(move_uploaded_file($tempname, $folder1)){
-		echo "<script>alert('Added successfully');</script>"; 
+		echo "<script>alert('Successfuly added product');</script>"; 
 	 }else{
 		 echo "Fail to upload";
 	 }
@@ -92,7 +92,6 @@ if(isset($_POST['submit'])){
 	}
 }
 echo "<script>
-alert('successfuly added product');
 window.location.href='searchProduct.php';
 </script>";
 ?>
