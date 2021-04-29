@@ -37,7 +37,8 @@
                 <li class="nav-item"><a class="nav-link" href="profile.php"><i class="fa fa-user"></i></a></li>
             </ul>
             <div class="dropdown"><a class="dropdown-toggle" aria-expanded="false" data-toggle="dropdown" href="#" style="color: #434a52;">Account</a>
-                <div class="dropdown-menu"><a class="dropdown-item" data-bss-hover-animate="bounce" href="signForm.php" style="color: rgb(0,0,0);background: #e5c6db;">Sign up</a><a class="dropdown-item" data-bss-hover-animate="bounce" href="login.html" style="color: rgb(0,0,0);background: #e87fc9;">Log in</a></div>
+                <div class="dropdown-menu"><a class="dropdown-item" data-bss-hover-animate="bounce" href="signForm.php" style="color: rgb(0,0,0);background: #e5c6db;">Sign up</a><a class="dropdown-item" data-bss-hover-animate="bounce" href="login.php
+                    " style="color: rgb(0,0,0);background: #e87fc9;">Log in</a></div>
             </div>
         </div>
     </nav>
@@ -50,7 +51,7 @@
             <div class="form-group"> <textarea class="form-control" name="message" placeholder="Enter your message here" rows="14" required></textarea></div>
             <div class="form-group"> <button class="btn btn-primary" type="submit" id="okButton" name="submit" > Send Mail</button></div>
             <input type="hidden" name="_subject" value="Contact form submitted">
-            <input type="hidden" name="_after" value="index.html">
+            <input type="hidden" name="_after" value="index.php">
             <input type="hidden" name="_honeypot" value="">
             <input type="hidden" name="_confirmation" value="">
             </form>
