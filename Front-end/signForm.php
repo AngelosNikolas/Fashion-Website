@@ -28,8 +28,8 @@ session_start();
 </head>
 
 <body style="background: url(&quot;assets/img/lines%20backround%202.jpg&quot;), rgb(255, 255, 255);">
-    <nav class="navbar navbar-light navbar-expand-md navigation-clean-search" style="color: rgb(0,0,0);background: rgba(255,255,255,0);">
-        <div class="container"><a class="navbar-brand" href="index.php">E-Goth</a></div>
+<nav class="navbar navbar-light navbar-expand-md navigation-clean-search" style="color: rgb(232,127,201);background: #e5c6db;">
+        <div class="container"><a class="navbar-brand" href="index.php" style="background: url(&quot;assets/img/logoFinal.png&quot;) center / contain no-repeat;height: 53px;width: 120.8281px;"></a></div>
     </nav>
     <section class="register-photo" style="background: url(&quot;assets/img/womantshirt.jpg&quot;) top, #dddddd;">
         <div class="form-container">
@@ -53,8 +53,5 @@ session_start();
     <script src="assets/js/Profile-Edit-Form.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
-
-</html>
-
 
 </html>
