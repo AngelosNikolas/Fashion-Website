@@ -36,7 +36,7 @@ session_start();
             <div><img src="assets/img/logoFinal.png" style="width: 239px;height: 167.359px;"></div>
             <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email" style="color: #2b2b28;font-family: Oswald, sans-serif;"></div>
             <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password" style="font-family: Oswald, sans-serif;color: #2b2b28;"></div>
-            <div class="form-group"><button class="btn btn-primary btn-block" type="submit" style="background: #434a52;">Log In</button></div><a class="forgot" href="#">Forgot your email or password?</a>
+            <div class="form-group"><button class="btn btn-primary btn-block" name="submit" type="submit" style="background: #434a52;">Log In</button></div><a class="forgot" href="#">Forgot your email or password?</a>
         </form>
     </section>
     <script src="assets/js/jquery.min.js"></script>
