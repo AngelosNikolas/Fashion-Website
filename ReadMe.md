@@ -1,6 +1,7 @@
 This is an E-Commerce website 
 
-
+Download the files and store them in a cross-platform web server for better expierience! 
+I recommend Xammp https://www.apachefriends.org/index.html
 
 
 
